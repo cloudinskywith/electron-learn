@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>不同进程</title>
+</head>
+<body>
+We are using io.js <script>document.write(process.version)</script>
+and Electron <script>document.write(process.versions['electron'])</script>.
+
+<button id="openFile">打开文件</button>
+<button id="openShell">打开shell</button>
+<button id="openTray">打开Tray</button>
+</body>
+
+<script src="main.js"></script>
+
+</html>
